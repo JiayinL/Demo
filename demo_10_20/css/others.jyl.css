@@ -1,0 +1,97 @@
+/*id*/
+#popupcontent{
+position:fixed;/**绝对定位**/
+z-index: 99;
+visibility: hidden;
+overflow: hidden;
+border:1px solid #CCC;
+background-color:#F9F9F9;
+border:1px solid #333;
+margin: auto;
+padding:5px;
+}
+
+.researcher-bio{
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	
+}
+
+.description_micro_learning{
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+	
+}
+
+.description_service{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+	
+}
+
+.description_paper{
+	text-align: justify;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+	margin-bottom: 1px;
+	
+}
+.description_paper_info{
+	text-align: right;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	
+}
+
+.researcher-img{
+    width: 375px;
+	height: 375px;
+	margin: 3px;
+/*
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+*/
+}
+
+
+#paper{
+	margin: 20px;
+/*	align-content: center;*/
+
+}
+#project{
+	margin: 20px;
+/*	text-align: center;*/
+}
+.dropdown{
+            display: inline-block;
+        }
+.btn:hover{
+            background-color: #ddd;
+        }
+.menu{
+	display: none;
+    position: absolute;
+    list-style: none;
+    border: 1px solid #eee;
+    min-width: 100px;
+}
+.menu li{
+	padding:5px 10px;
+}
+.menu li:hover{
+	background-color: #eee;
+}
+.dropdown:hover .menu{
+	display: block;
+}
+.dropdown:hover .btn{
+	background-color: #ddd;
+}
+
